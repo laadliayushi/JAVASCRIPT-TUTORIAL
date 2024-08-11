@@ -1,28 +1,30 @@
-let score = 33
-console.log(typeof score);
+//   this is string detatype
+let name = "ayushi malviya"
+console.log(name);
+// this is number datatype
+let age = 23
+console.log(age);
+// this is boolean datatype
+let isReal = true
+console.log(isreal);
 
-let scor = "44"
-console.log(typeof scor);
+// this is null datatype and its standalone datatype 
+let tamprature = null
 
-let mark = Number(scor)    /*here convert string in the form of number*/
-console.log(mark);
+//thiw is undifind value where we are not using any variablle value " "
+let undifind;
 
-let num = "232as"
-console.log(typeof num);
-let number = Number(num)
-console.log(number);    /*here convert value into a NaN (not a number )but type of  also showing number*/
-console.log(typeof number);
+// this is bigint when we need to large number in our project
 
-
-// let isAyushi = " "                    /*here  type of showing string and boolean type of true */
-console.log(typeof isAyushi);
-let isName = Boolean(isAyushi)
-console.log(isTrue);
-console.log(typeof isTrue);
+// symbol also one of uniqe datatype this is use for uniqe when we use symbol
 
 
-let isAyushi = ""                      /*here  type of showing string and boolean type of false */
-console.log(typeof isAyushi);
-let isTrue = Boolean(isAyushi)
-console.log(isTrue);
-console.log(typeof isTrue);
+
+
+/* 1 string 
+   2 number 
+   3 boolean
+   4 null
+   5 undifind
+   6 symbol
+   7 bigint */
